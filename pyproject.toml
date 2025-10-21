@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=4.2.0",
     "gensim>=4.4.0",
     "ipykernel>=7.0.1",
     "jieba>=0.42.1",
@@ -15,5 +16,6 @@ dependencies = [
     "torch==2.7.1",
     "torchaudio>=2.7.1",
     "torchvision==0.22.1",
+    "tqdm>=4.67.1",
     "transformers>=4.57.1",
 ]
