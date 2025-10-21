@@ -7,7 +7,11 @@ requires-python = ">=3.12"
 dependencies = [
     "gensim>=4.4.0",
     "ipykernel>=7.0.1",
+    "jieba>=0.42.1",
+    "matplotlib>=3.10.7",
+    "nltk>=3.9.2",
     "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
     "torch==2.7.1",
     "torchaudio>=2.7.1",
     "torchvision==0.22.1",
