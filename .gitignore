@@ -9,6 +9,9 @@ wheels/
 # Virtual environments
 .venv
 .python-version
+.env
 
 */data/*
 *.pt
+*artificial.pkl
+*cleaned_contexts.txt
