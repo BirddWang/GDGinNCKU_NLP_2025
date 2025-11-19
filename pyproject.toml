@@ -6,13 +6,18 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "datasets>=4.2.0",
+    "faiss-cpu>=1.13.0",
     "gensim>=4.4.0",
     "ipykernel>=7.0.1",
     "jieba>=0.42.1",
+    "langchain>=1.0.7",
+    "langchain-community>=0.4.1",
     "matplotlib>=3.10.7",
     "nltk>=3.9.2",
     "pandas>=2.3.3",
+    "rank-bm25>=0.2.2",
     "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.2",
     "sentencepiece>=0.2.1",
     "torch==2.7.1",
     "torchaudio>=2.7.1",
